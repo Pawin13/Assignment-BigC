@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
+import React, { Fragment, useState, FC, useContext } from "react";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-
+import { usernameContext } from "@/contexts/userProfileContext";
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -22,12 +23,15 @@ const theme: ThemeInterface = {
 };
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [username, setUsername] = useState<string>("Admin");
   return (
     <>
       <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <usernameContext.Provider value={{ username, setUsername }}>
+        <ThemeProvider theme={theme}>
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </usernameContext.Provider>
     </>
   );
 }

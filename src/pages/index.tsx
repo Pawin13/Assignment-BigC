@@ -1,13 +1,9 @@
 import styled from "styled-components";
-import React, { Fragment, useState, FC } from "react";
-import BasicComponents from "@/componentbasicReact1";
-import BasicHelloComponents from "@/componentbasicReact2";
-import CountNumber from "@/componentstateManagement/useStateHook";
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
+import React, { Fragment, useState, FC, useContext } from "react";
+import BasicComponents from "@/component/basicReact1";
+import BasicHelloComponents from "@/component/basicReact2";
+import CountNumber from "@/component/stateManagement/useStateHook";
+import UserContextComponent from "@/component/stateManagement/contextAPI";
 
 export default function Home() {
   return (
@@ -15,6 +11,7 @@ export default function Home() {
       <BasicComponents />;
       <BasicHelloComponents />
       <CountNumber />
+      <UserContextComponent />
     </Fragment>
   );
 }
