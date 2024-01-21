@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
+    "@styled-icons/material-outlined": "^10.47.0",
+    "@styled-icons/material-rounded": "^10.47.0",
     "@types/styled-components": "^5.1.34",
     "babel-plugin-styled-components": "^2.1.4",
     "next": "14.1.0",

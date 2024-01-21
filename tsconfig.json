@@ -16,7 +16,8 @@
       "@/*": ["./src/*"],
       "@/component/*": ["./component/*"],
       "@/interfaces/*": ["./interfaces/*"],
-      "@/contexts/*": ["./contexts/*"]
+      "@/contexts/*": ["./contexts/*"],
+      "@/public/*": ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

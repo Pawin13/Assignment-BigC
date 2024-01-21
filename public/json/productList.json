@@ -1,0 +1,98 @@
+[
+  {
+    "id": 58860,
+    "name": "Chicken Breast",
+    "desc": "Final price may change after actual weighing",
+    "price": 80,
+    "unit": "KG",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/20/02/0211320/0211320_2_2.jpg"
+  },
+  {
+    "id": 63389,
+    "name": "Napa Cabbage per kg.",
+    "desc": "Final price may change after actual weighing",
+    "price": 39,
+    "unit": "KG",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/65/02/0213365/0213365.jpg"
+  },
+  {
+    "id": 26525,
+    "name": "Chinese Cabbage (pack)",
+    "desc": "Final price may change after actual weighing",
+    "price": 39,
+    "unit": "Bag",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/56/20/2000004857356/2000004857356_5.jpg"
+  },
+  {
+    "id": 31334,
+    "name": "GREENDAY Crispy Strawberry 25 g.",
+    "desc": "",
+    "price": 62,
+    "unit": "BG",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/83/88/8858358009983/8858358009983.jpg"
+  },
+  {
+    "id": 25609,
+    "name": "Takrai Dipping Sauce Less Spicy 225 G",
+    "desc": "",
+    "price": 62,
+    "unit": "Bottle",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/26/88/8852046011326/thumbnail/8852046011326_1-20230109152014-.jpg"
+  },
+  {
+    "id": 26188,
+    "name": "Grilled Pork Skewer",
+    "desc": "",
+    "price": 10,
+    "unit": "",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/10/02/0215810/0215810_7.jpg"
+  },
+  {
+    "id": 85098,
+    "name": "TAMARIND HOUSE Crispy Banana with Passion Fruit Jam 90g.",
+    "desc": "",
+    "price": 63,
+    "unit": "Piece",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/11/88/8854099000111/8854099000111_3.jpg"
+  },
+  {
+    "id": 83586,
+    "name": "FRUIT KING Vacuum Freeze-Dried Mangosteen 15 g.",
+    "desc": "",
+    "price": 69,
+    "unit": "Packet",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/93/88/8856136003093/8856136003093_1-20231016173233-.jpg"
+  },
+  {
+    "id": 64515,
+    "name": "Organic Celery",
+    "desc": "Final price may change after actual weighing",
+    "price": 185,
+    "unit": "KG",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/98/02/0255198/0255198.jpg"
+  },
+  {
+    "id": 31334,
+    "name": "TONTAWAN Extra Large Dried Shiitake Mushroom 150 g.",
+    "desc": "Final price may change after actual weighing",
+    "price": 215,
+    "unit": "KG",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/81/88/8851583006581/8851583006581_1-20231026174543-.jpg"
+  },
+  {
+    "id": 27646,
+    "name": "LITTLE CHEF Taro Ball and Black Sasame 200 G.",
+    "desc": "",
+    "price": 81,
+    "unit": "Box",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/19/88/8851613200019/8851613200019_1.jpg"
+  },
+  {
+    "id": 64521,
+    "name": "Sai Nam Pueng Orange (Net)",
+    "desc": "",
+    "price": 49,
+    "unit": "Pack",
+    "thumb": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/30/20/2000002872030/2000002872030.jpg"
+  }
+]

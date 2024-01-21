@@ -18,3 +18,11 @@ export interface IUserProfile {
     bs?: string;
   };
 }
+export interface IProduct {
+  id: number;
+  name: string;
+  desc: string;
+  price: number;
+  unit: string;
+  thumb: string;
+}

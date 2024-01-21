@@ -5,18 +5,6 @@ import { IUserProfile } from "@/interfaces/profile";
 const AboutPage: React.FC<any> = ({ data }) => {
   return (
     <Style.cardItems>
-      {/* <div className="card-lists">
-        {data.length > -1 &&
-          data.map((item: IUserProfile, i: number) => {
-            return (
-              <div className="card-item">
-                <p>Name : {item.name}</p>
-                <p>Username : {item.username}</p>
-                <p>email : {item.email}</p>
-              </div>
-            );
-          })}
-      </div> */}
       <section>
         <span>Infomation User</span>
         <h1>Fetch API Component</h1>
