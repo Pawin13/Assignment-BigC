@@ -1,3 +1,31 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["@typescript-eslint", "react-hooks"],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "import/no-anonymous-default-export": [
+    "error",
+    {
+      "allowArray": false,
+      "allowArrowFunction": false,
+      "allowAnonymousClass": false,
+      "allowAnonymousFunction": false,
+      "allowCallExpression": true, // The true value here is for backward compatibility
+      "allowNew": false,
+      "allowLiteral": false,
+      "allowObject": false
+    }
+  ],
+  "react-hooks/rules-of-hooks": "error",
+  "react-hooks/exhaustive-deps": [
+    "warn",
+    {
+      "enableDangerousAutofixThisMayCauseInfiniteLoops": true
+    }
+  ]
 }
