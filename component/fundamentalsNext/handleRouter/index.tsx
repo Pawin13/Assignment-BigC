@@ -1,6 +1,5 @@
 import React, { FC, useState } from "react";
 import Style from "./style";
-import { useUsernameContext } from "@/contexts/userProfileContext";
 import { useRouter } from "next/router";
 
 const RouterComponent: FC<any> = () => {
