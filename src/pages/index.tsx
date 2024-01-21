@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React, { Fragment, useState, FC } from "react";
 import BasicComponents from "@/componentbasicReact1";
 import BasicHelloComponents from "@/componentbasicReact2";
+import CountNumber from "@/componentstateManagement/useStateHook";
 
 const Title = styled.h1`
   font-size: 50px;
@@ -13,6 +14,7 @@ export default function Home() {
     <Fragment>
       <BasicComponents />;
       <BasicHelloComponents />
+      <CountNumber />
     </Fragment>
   );
 }

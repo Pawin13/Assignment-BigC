@@ -9,7 +9,7 @@ const ContainerDisplay = styled.div`
     font-family: "Poppins", sans-serif;
   }
   .container {
-    display: inline-flex; /* or grid based on your need */
+    display: inline-grid; /* or grid based on your need */
     grid-auto-rows: 1fr; /* equal height row */
     overflow: auto;
     background: #f3f9ee;
@@ -21,6 +21,18 @@ const ContainerDisplay = styled.div`
   .container .content {
     padding: 0.5rem 1rem;
     display: grid;
+  }
+
+  .title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    color: #81c500;
+  }
+  .btn-layout {
+    display: inline-flex;
+    justify-content: space-between;
   }
 `;
 
@@ -36,9 +48,9 @@ const BtnAnswer = styled.div`
     display: flex;
     flex-direction: column;
     font-family: "Codec cold", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    height: 54px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 42px;
     justify-content: center;
     letter-spacing: 0.4px;
     line-height: 1;
@@ -51,7 +63,6 @@ const BtnAnswer = styled.div`
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin-top: 20px;
   }
 
   .button-75:active {

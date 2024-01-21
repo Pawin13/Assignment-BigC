@@ -5,7 +5,7 @@ const BasicComponents: FC<any> = () => {
   const [answer, setAnswer] = useState<string>("");
 
   let message = "Hello, World!";
-  const titleTest = `1. JS Fundamentals: อธิบาย const แตกต่างจาก let อย่างไร?`;
+  const titleTest = `1.1. JS Fundamentals: อธิบาย const แตกต่างจาก let อย่างไร?`;
 
   const handleIncrement = () => {
     message = "Answer";
@@ -21,7 +21,7 @@ const BasicComponents: FC<any> = () => {
   };
 
   return (
-    <Style.ContainerUpload>
+    <Style.ContainerDisplay>
       <div className="container">
         <div className="content">
           <h3>{titleTest}</h3>
@@ -33,7 +33,7 @@ const BasicComponents: FC<any> = () => {
           </button>
         </Style.BtnAnswer>
       </div>
-    </Style.ContainerUpload>
+    </Style.ContainerDisplay>
   );
 };
 
