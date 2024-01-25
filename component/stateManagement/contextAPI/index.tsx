@@ -2,7 +2,7 @@ import React, { FC, useState } from "react";
 import Style from "./style";
 import { useUsernameContext } from "@/contexts/userProfileContext";
 
-const UserContextComponent: FC<any> = () => {
+const VitalsComponent: FC<any> = () => {
   const testTitle =
     "4.1. CLS: อธิบายว่าอะไรคือ Cumulative Layout Shift (CLS) และมันสำคัญอย่างไร";
   const testTitle2 =
@@ -35,4 +35,4 @@ const UserContextComponent: FC<any> = () => {
   );
 };
 
-export default UserContextComponent;
+export default VitalsComponent;
